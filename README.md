@@ -167,3 +167,16 @@ remote:
 To github.com:NeetuSDET/Conflict.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
+
+**********
+
+git status
+git add .
+git commit -m "master change"
+git checkout main
+git pull origin main --allow-unrelated-histories
+git push origin main
+
+
+
+
